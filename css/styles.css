@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 100%;
+    height: 100vh;
+} 
+
 /* Nav Bar ou Barra de navageção */
 
 .navbar-container {
@@ -96,7 +101,7 @@ background: linear-gradient(0deg, rgba(193,37,79,1) 0%, rgba(255,64,116,1) 100%)
 
 .mainbanner {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: calc(100vh - 200px);
 }
 
